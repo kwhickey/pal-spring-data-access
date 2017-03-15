@@ -2,6 +2,9 @@
 spring:
   profiles:
     active: mongo
+management:
+  security:
+    enabled: false
 ---
 spring:
   profiles: jdbc
